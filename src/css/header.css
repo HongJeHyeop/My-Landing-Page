@@ -1,0 +1,47 @@
+#header {
+    height: 400px;
+    background: url("../img/backgroundImage.jpg") no-repeat fixed top;
+    background-size: cover;
+
+}
+#header-wrap {
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    /*background-color: #2e5656;*/
+}
+#header-wrap > #header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 로고 */
+#header-top > #logo {
+    padding: 2rem 1rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* 메뉴 */
+#header-top > #header-list {
+    padding: 2rem 1rem
+}
+#header-top > #header-list > ul {
+    display: flex;
+}
+#header-top > #header-list > ul > li {
+    margin: 0 1.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* 메인 내용 */
+#header-main > h1 {
+    margin-top: 4rem;
+    text-align: center;
+    text-shadow: 2px 2px 2px #666;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+
+}
