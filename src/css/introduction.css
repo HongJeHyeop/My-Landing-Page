@@ -1,0 +1,28 @@
+#intro {
+    background-color: rgba(58, 107, 213, 0.3);
+}
+#intro-wrap {
+    margin: 0 auto;
+    padding: 1rem 0;
+    width: 1280px;
+}
+
+#intro-wrap > h2{
+    padding-top: 4rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+}
+#intro-wrap > .contents {
+    margin: 1rem auto;
+    padding: 1rem 0;
+    width: 50rem;
+    height: 15rem;
+
+}
+#intro-wrap > .contents > span{
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+    color: #555;
+}
