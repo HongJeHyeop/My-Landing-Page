@@ -1,0 +1,38 @@
+#skill {
+    background-color: yellow;
+}
+#skill-wrap {
+    margin: 0 auto;
+    padding: 1rem 0;
+    width: 1280px;
+}
+#skill-wrap > h2 {
+    padding: 2rem 0;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+}
+#skill-wrap > #skill-list-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+#skill-list-wrap > .skill-list {
+    margin: 1rem;
+    padding: 1rem;
+
+    border-radius: 2rem;
+    box-shadow: 1px 1px 5px 1px #ccc;
+    background-color: white;
+}
+#skill-list-wrap > .skill-list > h3{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#skill-list-wrap > .skill-list li{
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: #555;
+}
