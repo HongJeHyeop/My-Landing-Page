@@ -21,7 +21,7 @@ function Header() {
                     <div id="header-main">
                         <h1>BackEnd Developer Hong Je Hyeop</h1>
                         <div>
-                            <span>아무말 하나 멘트 정하기입니다</span>
+                            <span>한걸음씩 꾸준히 성장하는 성실한 개발자가 되겠습니다 :D</span>
                         </div>
                     </div>
                 </div>
