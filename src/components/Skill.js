@@ -1,8 +1,9 @@
 import '../css/skill.css'
+import { forwardRef } from "react";
 
-function Skill() {
+function Skill(prop, ref) {
     return (
-        <div id="skill">
+        <div id="skill" ref={ref}>
             <div id="skill-wrap">
                 <h2>SKILL</h2>
                 <div id="skill-list-wrap">
@@ -57,4 +58,4 @@ function Skill() {
     )
 }
 
-export default Skill;
+export default forwardRef(Skill);

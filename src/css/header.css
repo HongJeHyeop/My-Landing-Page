@@ -14,26 +14,46 @@
 #header-wrap > #header-top {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
+/*.header-fixed {*/
+/*    position: fixed;*/
+/*    background-color: #999999;*/
+/*    box-shadow: 0 3px 3px 1px #999;*/
+/*    width: 1280px;*/
+/*    top: 1rem;*/
+/*}*/
 
 /* 로고 */
 #header-top > #logo {
     padding: 2rem 1rem;
     color: rgba(255, 255, 255, 0.9);
 }
-
+#header-top > #logo > h2 {
+    cursor: pointer;
+}
 /* 메뉴 */
-#header-top > #header-list {
+#header-top > .header-menus {
     padding: 2rem 1rem
 }
-#header-top > #header-list > ul {
+#header-top > .header-menus > ul {
     display: flex;
 }
-#header-top > #header-list > ul > li {
+#header-top > .header-menus > ul > li {
     margin: 0 1.5rem;
     font-size: 1.1rem;
     font-weight: bold;
     color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+.header-menus-toggle {
+    display: none;
+    padding: 2rem 1rem;
+}
+.header-menus-toggle > .fa-bars{
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
 
 /* 메인 내용 */
@@ -58,4 +78,53 @@
 #header-main > div > span {
     font-size: 1.5rem;
     color: #444;
+}
+
+@media only screen and (max-width: 768px) {
+    #header-wrap {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #header-top {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background-color: #c9d090;
+    }
+    .header-menus-toggle {
+        display: block;
+    }
+    #header-top > .header-menus {
+        padding: 0;
+        width: 100%;
+        display: none;
+    }
+    #header-top > .header-menus.toggle-active {
+        display: block;
+    }
+    .header-menus > ul{
+        display: flex;
+        flex-direction: column;
+        background-color: #bd8743;
+    }
+    #header-top > .header-menus > ul > li {
+        margin: 0;
+        padding: 1rem 0;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        border-bottom: 1px solid #fff;
+    }
+    #header-main{
+        margin-top: 5rem;
+        padding: 1rem 0;
+    }
+    #header-main > div {
+        width: 90%;
+        height: 3rem;
+    }
+    #header-main > div > span {
+        font-size: 0.9rem;
+    }
 }

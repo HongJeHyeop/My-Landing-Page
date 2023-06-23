@@ -8,7 +8,7 @@
 }
 
 #intro-wrap > h2{
-    padding-top: 4rem;
+    padding: 2rem 0;
     font-size: 3rem;
     text-align: center;
     color: #fff;
@@ -35,8 +35,8 @@
     margin: 1rem 2rem;
     padding: 1rem;
     width: 15rem;
-    height: 10rem;
-    border-radius: 50%;
+    height: 7rem;
+    border-radius: 5rem;
     background-color: white;
     box-shadow: 1px 1px 10px 1px #999;
 
@@ -45,18 +45,32 @@
     justify-content: center;
 }
 .info-list > div > h3{
-    margin: 0.5rem 0;
     text-align: center;
     font-size: 1.4rem;
     color: #805a2c;
 }
 .info-list > div > p{
-    margin: 0.5rem 0;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #666;
 }
 .info-list > div > hr{
+    margin: 0.5rem 0;
     border: 2px solid #bd8743;
+}
+
+
+@media screen and (max-width: 768px) {
+    #intro-wrap {
+        width: 100%;
+    }
+    #info {
+        display: flex;
+        flex-direction: column;
+    }
+    .info-list {
+        display: flex;
+        flex-direction: column;
+    }
 }

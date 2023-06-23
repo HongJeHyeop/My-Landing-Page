@@ -36,3 +36,11 @@
     line-height: 1.8rem;
     color: #555;
 }
+@media screen and (max-width: 768px) {
+    #skill-wrap {
+        width: 100%;
+    }
+    #skill-list-wrap {
+        flex-direction: column;
+    }
+}

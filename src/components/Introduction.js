@@ -1,15 +1,16 @@
 import "../css/introduction.css";
+import { forwardRef } from "react";
 
-function Introduction() {
+function Introduction(prop, ref) {
     return (
-        <div id="intro">
+        <div id="intro" ref={ref}>
             <div id="intro-wrap">
                 <h2>ABOUT ME</h2>
                 <div id="intro-contents">
-                <span>우연히 코딩을 시작하게 된 후 코딩에 재미를 느껴 개발자의 길로 서게되었습니다.
-                    22년 12월 ~ 현재까지 단기간에 이것저것 배우며 빠르게 성장하였습니다. <br/>
-                    빠르게 성장한 만큼 아직 부족함이 있는 개발자 이지만 제가 모르는게 무엇인지 파악하여
-                    부족한부분을 채워가며 꾸준히 성장하는 개발자가 되겠습니다!</span>
+                <span>누구보다 꾸준하고 성실한 노력으로 무한한 발전 가능성을 가진 개발자 홍제협 입니다. <br/>
+                    길지않은 시간 안에 이룬 이 성장은 저의 발전 욕구와 함께 나아가는 제 가능성의 증명이며,
+                    새로운 것에 항상 도전적인 자세로 성실히 노력으로 개발자가 될 것입니다.
+                </span>
                 </div>
                 <div id="info">
                     <div className="info-list">
@@ -31,14 +32,15 @@ function Introduction() {
                     </div>
                     <div className="info-list">
                         <div>
-                            <h3>경력</h3>
+                            <h3>주소</h3>
                             <hr/>
-                            <p>신입</p>
+                            <p>대구시 남구</p>
                         </div>
                         <div>
                             <h3>자격증</h3>
                             <hr/>
-                            <p>정보처리기사</p>
+                            <p>· 정보처리기사</p>
+                            <p>· 리눅스마스터2급</p>
                         </div>
                     </div>
                 </div>
@@ -47,4 +49,4 @@ function Introduction() {
     )
 }
 
-export default Introduction;
+export default forwardRef(Introduction);
