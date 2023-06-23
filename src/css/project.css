@@ -1,0 +1,49 @@
+#project {
+    background-color: #57dc5d;
+}
+#project-wrap {
+    margin: 0 auto;
+    padding: 1rem 0;
+    width: 1280px;
+}
+#project-wrap > h2 {
+    padding: 2rem 0;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+}
+
+.project-box {
+    margin: 1rem;
+    display: flex;
+}
+.project-box:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.project-box > img{
+    width: 30rem;
+    height: 20rem;
+    box-shadow: 0 0 10px 1px #999;
+}
+.project-box > .project-contents{
+    padding: 1rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    #project-wrap {
+        width: 100%;
+    }
+    .project-box {
+        flex-direction: column;
+    }
+    .project-box:nth-child(odd) {
+        flex-direction: column;
+    }
+    .project-box > img{
+        margin: 0 auto;
+        width: 100%;
+        height: 15rem;
+    }
+}

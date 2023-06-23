@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Introduction from './components/Introduction';
 import Skill from './components/Skill';
+import Project from './components/Project';
 import {useRef} from "react";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
             <Header move_introRef={move_introRef} move_skillRef={move_skillRef}/>
             <Introduction ref={introRef}/>
             <Skill ref={skillRef}/>
+            <Project/>
         </div>
     );
 }
