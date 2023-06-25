@@ -1,6 +1,7 @@
 #header {
-    background: linear-gradient(rgba(195, 232, 255, 0.3) 0, rgba(195, 232, 255, 0.3) 0),
-    url("../img/backgroundImage.jpg") no-repeat top;
+    background:/* linear-gradient(rgba(195, 232, 255, 0.3) 0, rgba(195, 232, 255, 0.3) 0),*/
+    url("../img/hong.jpg") no-repeat center;
+    width: 100%;
     background-size: cover;
 
 }

@@ -1,5 +1,5 @@
 #project {
-    background-color: #57dc5d;
+    background-color: #c9d090;
 }
 #project-wrap {
     margin: 0 auto;
@@ -15,7 +15,9 @@
 
 .project-box {
     margin: 1rem;
+    padding: 1rem 0;
     display: flex;
+    border-bottom: 1px solid #999999;
 }
 .project-box:nth-child(odd) {
     flex-direction: row-reverse;
