@@ -17,13 +17,18 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-/*.header-fixed {*/
-/*    position: fixed;*/
-/*    background-color: #999999;*/
-/*    box-shadow: 0 3px 3px 1px #999;*/
-/*    width: 1280px;*/
-/*    top: 1rem;*/
-/*}*/
+.header-fixed {
+    margin: 0;
+    padding: 0 15rem;
+    position: fixed;
+    background-color: #999999;
+    box-shadow: 0 3px 3px 1px #999;
+    transition: all ease-in-out 0.2s;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
 
 /* 로고 */
 #header-top > #logo {
