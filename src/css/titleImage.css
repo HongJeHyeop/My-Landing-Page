@@ -1,0 +1,64 @@
+#title-image {
+    background:/* linear-gradient(rgba(195, 232, 255, 0.3) 0, rgba(195, 232, 255, 0.3) 0),*/
+            url("../img/hong.jpg") no-repeat center;
+    width: 100%;
+    background-size: cover;
+
+}
+#title-image-wrap {
+    width: 1280px;
+    height: 400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 메인 내용 */
+#title-image-wrap > h1 {
+    margin-top: 3rem;
+    text-align: center;
+    text-shadow: 3px 3px 3px #666;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+}
+#title-image-wrap > div {
+    margin: 2rem auto;
+    width: 50rem;
+    height: 4rem;
+    background-color: rgba(255, 229, 183, 0.4);
+    border-radius: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#title-image-wrap > div > span {
+    font-size: 1.5rem;
+    color: #444;
+}
+
+@media only screen and (max-width: 768px) {
+    #title-image-wrap {
+        width: 100%;
+        /*position: fixed;*/
+        /*top: 0;*/
+        /*background-color: #c9d090;*/
+    }
+    #title-image-wrap{
+        padding: 1rem 0;
+    }
+    #title-image-wrap > h1 {
+        font-size: 2.5rem;
+    }
+    #title-image-wrap > div {
+        width: 90%;
+        height: 3rem;
+    }
+    #title-image-wrap > div > span {
+        font-size: 0.9rem;
+    }
+}

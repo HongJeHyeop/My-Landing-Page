@@ -1,10 +1,11 @@
 import '../css/project.css';
 import projectImg from '../img/chungwoo1.png';
 import portfolioImg from '../img/portfolio.png'
+import {forwardRef} from "react";
 
-function Project() {
+function Project(prop, ref) {
     return (
-        <div id="project">
+        <div id="project" ref={ref}>
             <div id={"project-wrap"}>
                 <h2>PROJECT</h2>
                 <div className={"project-box"}>
@@ -38,4 +39,4 @@ function Project() {
     )
 }
 
-export default Project;
+export default forwardRef(Project);

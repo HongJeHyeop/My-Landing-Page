@@ -33,6 +33,10 @@ function Header(props) {
         setMenuToggle(!menuToggle);
         props.move_skillRef();
     }
+    const move_projectRef = () => {
+        setMenuToggle(!menuToggle);
+        props.moveProjectRef();
+    }
     useEffect(() => {
         const scrollListener = () => {
             window.addEventListener('scroll', scroll_fixed_top);
@@ -44,8 +48,7 @@ function Header(props) {
     });
     return (
         <div id="header">
-            <div id="header-wrap">
-                <div id="header-top" className={fixed ? "header-fixed" : ""} ref={fiexdRef}>
+            <div id="header-wrap" className={fixed ? "header-fixed" : ""} ref={fiexdRef}>
                     <div id="logo">
                         <h2 onClick={move_header_top}>DEV_HONG</h2>
                     </div>
@@ -56,17 +59,10 @@ function Header(props) {
                         <ul>
                             <li onClick={move_introRef}>소개</li>
                             <li onClick={move_skillRef}>스킬</li>
-                            <li>프로젝트</li>
+                            <li onClick={move_projectRef}>프로젝트</li>
                             <li>컨택</li>
                         </ul>
                     </div>
-                </div>
-                <div id="header-main">
-                    <h1>BackEnd Developer Hong Je Hyeop</h1>
-                    <div>
-                        <span>한걸음씩 꾸준히 성장하는 성실한 개발자가 되겠습니다 :D</span>
-                    </div>
-                </div>
             </div>
         </div>
     )
