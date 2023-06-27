@@ -51,6 +51,9 @@
     color: rgba(255, 255, 255, 0.9);
     cursor: pointer;
 }
+#header-wrap > .header-menus > ul > li:hover {
+    text-shadow: 1px 1px 10px #fff;
+}
 .header-menus-toggle {
     display: none;
     padding: 2rem 1rem;

@@ -5,7 +5,10 @@
 
 a {
     text-decoration: none;
+    color: inherit;
+    font-style: italic;
 }
+
 
 li {
     list-style-type: none;
