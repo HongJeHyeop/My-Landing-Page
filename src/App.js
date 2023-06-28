@@ -5,6 +5,8 @@ import TitleImage from "./components/TitleImage";
 import Introduction from './components/Introduction';
 import Skill from './components/Skill';
 import Project from './components/Project';
+import Contact from './components/Contact';
+
 import {useRef} from "react";
 
 function App() {
@@ -42,6 +44,7 @@ function App() {
             <Introduction ref={introRef}/>
             <Skill ref={skillRef}/>
             <Project ref={projectRef}/>
+            <Contact/>
         </div>
     );
 }

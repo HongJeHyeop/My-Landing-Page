@@ -1,0 +1,36 @@
+#contact {
+    background-color: #a3ffc0;
+}
+
+#contact-wrap {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact-wrap > h2 {
+    width: 100%;
+    padding: 1rem 0 2rem 0;
+    font-size: 3rem;
+    color: #111;
+}
+
+#contact-wrap > .profile-img > img {
+    width: 14rem;
+    height: 18rem;
+}
+#contact-wrap > .contact-contents {
+    padding: 0 1rem 1rem 1rem;
+}
+
+.contact-contents > p {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.contact-contents > p > a {
+
+}
