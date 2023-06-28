@@ -15,7 +15,6 @@ function Header(props) {
         })
     }
     const scroll_fixed_top = () => {
-        console.log(window.scrollY)
         if(window.scrollY >= 100) {
             setFixed(true);
         }else {
@@ -37,6 +36,10 @@ function Header(props) {
         setMenuToggle(!menuToggle);
         props.moveProjectRef();
     }
+    const move_contactRef = () => {
+        setMenuToggle(!menuToggle);
+        props.move_contactRef();
+    }
     useEffect(() => {
         const scrollListener = () => {
             window.addEventListener('scroll', scroll_fixed_top);
@@ -57,10 +60,10 @@ function Header(props) {
                     </div>
                     <div className={"header-menus " + (menuToggle ? "toggle-active" : "")} >
                         <ul>
-                            <li onClick={move_introRef}>소개</li>
-                            <li onClick={move_skillRef}>스킬</li>
-                            <li onClick={move_projectRef}>프로젝트</li>
-                            <li>컨택</li>
+                            <li onClick={move_introRef}>INTRODUCTION</li>
+                            <li onClick={move_skillRef}>SKILL</li>
+                            <li onClick={move_projectRef}>PROJECT</li>
+                            <li onClick={move_contactRef}>CONTACT</li>
                         </ul>
                     </div>
             </div>

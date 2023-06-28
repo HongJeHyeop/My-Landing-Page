@@ -1,9 +1,10 @@
 import '../css/contact.css';
 import profileImg from "../img/hongjehyeop.jpg";
+import {forwardRef} from "react";
 
-function Contact() {
+function Contact(prop, ref) {
     return (
-        <div id="contact">
+        <div id="contact" ref={ref}>
             <div id="contact-wrap">
                 <h2>CONTACT</h2>
                 <div className="profile-img">
@@ -19,4 +20,4 @@ function Contact() {
     )
 }
 
-export default Contact;
+export default forwardRef(Contact);

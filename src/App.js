@@ -13,6 +13,7 @@ function App() {
     const introRef = useRef(null);
     const skillRef = useRef(null);
     const projectRef = useRef(null);
+    const contactRef = useRef(null);
     const move_introRef = async () => {
         const introTop = await introRef.current?.getBoundingClientRect().top + window.scrollY - 90;
         window.scrollTo({
@@ -31,20 +32,30 @@ function App() {
     }
     const move_projectRef = async () => {
         const projectTop = await projectRef.current?.getBoundingClientRect().top + window.scrollY -90;
+        console.log(projectTop)
         window.scrollTo({
             top : projectTop,
+            behavior: "smooth"
+        })
+    }
+    const move_contactRef = async () => {
+        const contactTop = await contactRef.current?.getBoundingClientRect().top + window.scrollY - 90;
+        console.log(contactTop)
+        window.scrollTo({
+            top: contactTop,
             behavior: "smooth"
         })
     }
 
     return (
         <div className="App">
-            <Header move_introRef={move_introRef} move_skillRef={move_skillRef} moveProjectRef={move_projectRef}/>
+            <Header move_introRef={move_introRef} move_skillRef={move_skillRef}
+                    moveProjectRef={move_projectRef} move_contactRef={move_contactRef}/>
             <TitleImage/>
             <Introduction ref={introRef}/>
             <Skill ref={skillRef}/>
             <Project ref={projectRef}/>
-            <Contact/>
+            <Contact ref={contactRef}/>
         </div>
     );
 }

@@ -5,7 +5,7 @@
 #contact-wrap {
     width: 1280px;
     margin: 0 auto;
-    padding: 1rem;
+    /*padding: 1rem;*/
 
     display: flex;
     flex-wrap: wrap;
@@ -17,10 +17,13 @@
     font-size: 3rem;
     color: #111;
 }
-
-#contact-wrap > .profile-img > img {
+#contact-wrap > .profile-img {
     width: 14rem;
     height: 18rem;
+}
+#contact-wrap > .profile-img > img {
+    width: 100%;
+    height: 100%;
 }
 #contact-wrap > .contact-contents {
     padding: 0 1rem 1rem 1rem;
@@ -31,6 +34,21 @@
     font-size: 1.5rem;
 }
 
-.contact-contents > p > a {
+@media only screen and (max-width: 768px) {
+    #contact-wrap {
+        width: 100%;
 
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    #contact-wrap > h2 {
+        text-align: center;
+    }
+    #contact-wrap > .profile-img {
+        margin: 0 auto;
+    }
+    .contact-contents > p {
+        margin: 1rem 0;
+        font-size: 1.1rem;
+    }
 }
