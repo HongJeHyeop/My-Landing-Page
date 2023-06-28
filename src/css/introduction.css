@@ -1,5 +1,5 @@
 #intro {
-    background-color: rgba(58, 107, 213, 0.3);
+    /*background-color: rgba(58, 107, 213, 0.3);*/
 }
 #intro-wrap {
     margin: 0 auto;
@@ -11,17 +11,17 @@
     padding: 2rem 0;
     font-size: 3rem;
     text-align: center;
-    color: #fff;
+    color: #043759;
 }
 #intro-wrap > #intro-contents {
     padding: 1rem 2rem;
-    background-color: white;
+    background-color: rgb(7, 120, 152);
     line-height: 1rem;
     border-radius: 3rem;
 }
 #intro-wrap > #intro-contents > span{
     line-height: 1.5rem;
-    color: #555;
+    color: #fff;
 }
 #intro-wrap > #info {
     margin: 2rem auto;
@@ -38,7 +38,7 @@
     height: 7rem;
     border-radius: 5rem;
     background-color: white;
-    box-shadow: 1px 1px 10px 1px #999;
+    box-shadow: 1px 1px 5px 1px #ccc;
 
     display: flex;
     flex-direction: column;
@@ -47,23 +47,26 @@
 .info-list > div > h3{
     text-align: center;
     font-size: 1.4rem;
-    color: #805a2c;
+    color: #002e4f;
 }
 .info-list > div > p{
     text-align: center;
     font-size: 1.2rem;
     font-weight: bold;
-    color: #666;
+    color: #002e4f;
 }
 .info-list > div > hr{
     margin: 0.5rem 0;
-    border: 2px solid #bd8743;
+    border: 2px solid #1d648a;
 }
 
 
 @media screen and (max-width: 768px) {
     #intro-wrap {
         width: 100%;
+    }
+    #intro-wrap > #intro-contents {
+        border-radius: 6rem;
     }
     #info {
         display: flex;

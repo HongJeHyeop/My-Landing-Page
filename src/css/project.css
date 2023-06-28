@@ -1,5 +1,5 @@
 #project {
-    background-color: #c9d090;
+    background-color: #eee;
 }
 #project-wrap {
     margin: 0 auto;
@@ -10,7 +10,7 @@
     padding: 2rem 0;
     font-size: 3rem;
     text-align: center;
-    color: #fff;
+    color: #111;
 }
 
 .project-box {

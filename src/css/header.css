@@ -87,15 +87,16 @@
     .header-menus > ul{
         display: flex;
         flex-direction: column;
-        background-color: #bd8743;
+        background-color: #fff;
     }
     #header-wrap > .header-menus > ul > li {
         margin: 0;
         padding: 1rem 0;
         width: 100%;
         text-align: center;
-        color: #fff;
-        border-bottom: 1px solid #fff;
+        color: #444;
+        border-bottom: 2px solid #ccc;
+        box-sizing: border-box;
     }
 
 }

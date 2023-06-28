@@ -46,10 +46,7 @@ function Skill(prop, ref) {
                             <li>Git / Github</li>
                             <li>IntelliJ / WebStorm</li>
                             <li>Eclipse / VSConde</li>
-                            <li>Workbench / HeidiSQL</li>
                             <li>VMware</li>
-                            <li>PuTTY / PuTTYgen</li>
-                            <li>FileZilla</li>
                         </ul>
                     </div>
                 </div>
