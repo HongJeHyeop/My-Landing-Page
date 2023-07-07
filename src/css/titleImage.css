@@ -1,6 +1,6 @@
 #title-image {
     background:/* linear-gradient(rgba(195, 232, 255, 0.3) 0, rgba(195, 232, 255, 0.3) 0),*/
-            url("../img/hong.jpg") no-repeat center;
+            url("../img/hong.png") no-repeat center;
     width: 100%;
     background-size: cover;
 
@@ -39,6 +39,7 @@
 }
 #title-image-wrap > div > span {
     font-size: 1.5rem;
+    font-weight: bold;
     color: #444;
 }
 
