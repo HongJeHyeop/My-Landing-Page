@@ -6,6 +6,7 @@ import Introduction from './components/Introduction';
 import Skill from './components/Skill';
 import Project from './components/Project';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 import {useRef} from "react";
 
@@ -56,6 +57,7 @@ function App() {
             <Skill ref={skillRef}/>
             <Project ref={projectRef}/>
             <Contact ref={contactRef}/>
+            <Footer/>
         </div>
     );
 }

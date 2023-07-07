@@ -1,5 +1,5 @@
 #skill {
-    background-color: #d3d382;
+    background-color: #fff6d8;
 }
 #skill-wrap {
     margin: 0 auto;
@@ -10,7 +10,7 @@
     padding: 2rem 0;
     font-size: 3rem;
     text-align: center;
-    color: #fff;
+    color: black;
 }
 #skill-wrap > #skill-list-wrap {
     display: flex;

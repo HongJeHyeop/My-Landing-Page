@@ -1,11 +1,11 @@
 #contact {
-    background-color: #a3ffc0;
+    background-color: #fff6d8;
 }
 
 #contact-wrap {
     width: 1280px;
     margin: 0 auto;
-    /*padding: 1rem;*/
+    padding: 2rem 0;
 
     display: flex;
     flex-wrap: wrap;

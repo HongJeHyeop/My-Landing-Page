@@ -11,17 +11,17 @@
     padding: 2rem 0;
     font-size: 3rem;
     text-align: center;
-    color: #043759;
+    color: #3c749a;
 }
 #intro-wrap > #intro-contents {
     padding: 1rem 2rem;
-    background-color: rgb(7, 120, 152);
+    background-color: #fdf5d7;
     line-height: 1rem;
     border-radius: 3rem;
 }
 #intro-wrap > #intro-contents > span{
     line-height: 1.5rem;
-    color: #fff;
+    color: #2a4e6b;
 }
 #intro-wrap > #info {
     margin: 2rem auto;
@@ -47,17 +47,17 @@
 .info-list > div > h3{
     text-align: center;
     font-size: 1.4rem;
-    color: #002e4f;
+    color: #3c749a;
 }
 .info-list > div > p{
     text-align: center;
     font-size: 1.2rem;
     font-weight: bold;
-    color: #002e4f;
+    color: #3c749a;
 }
 .info-list > div > hr{
     margin: 0.5rem 0;
-    border: 2px solid #1d648a;
+    border: 2px solid #7db5d9;
 }
 
 
