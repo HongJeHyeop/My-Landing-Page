@@ -14,7 +14,7 @@ function Project(prop, ref) {
                     <div className={"project-contents"}>
                         <h3>(주)청우국제운송 회사 소개페이지</h3>
                         <ul>
-                            <li>· 주소 : <a href="http://chungwoo.shop">http://chungwoo.shop</a></li>
+                            <li>· 주소 : <a href="https://chungwoo.shop">http://chungwoo.shop</a></li>
                             <li>· 제작기간 : 23년 4월 ~ </li>
                             <li>· 개발인원 : 1인</li>
                             <li>· 기술 : SpringBoot, HTML/CSS, JavaScript, Mybatis, MySQL, AWS(EC2, RDS), Git/Github</li>
