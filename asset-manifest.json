@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/My-Landing-Page/static/css/main.a874499f.css",
-    "main.js": "/My-Landing-Page/static/js/main.c16a7f52.js",
+    "main.css": "/My-Landing-Page/static/css/main.66a402ed.css",
+    "main.js": "/My-Landing-Page/static/js/main.c3c603ba.js",
     "static/js/787.060a5f04.chunk.js": "/My-Landing-Page/static/js/787.060a5f04.chunk.js",
-    "static/media/chungwoo1.png": "/My-Landing-Page/static/media/chungwoo1.34d460943f6cc06350e3.png",
+    "static/media/chungwoo1.png": "/My-Landing-Page/static/media/chungwoo1.9852d995347b6f4bf3f1.png",
     "static/media/classicLink.png": "/My-Landing-Page/static/media/classicLink.3aa72dbec01fadc15ef1.png",
     "static/media/portfolio.png": "/My-Landing-Page/static/media/portfolio.96fcbe5b04823c10052a.png",
     "static/media/hongjehyeop.jpg": "/My-Landing-Page/static/media/hongjehyeop.c60bfa85629a50e465b6.jpg",
     "static/media/hong.png": "/My-Landing-Page/static/media/hong.59f620cfc82ed5193b0d.png",
     "index.html": "/My-Landing-Page/index.html",
-    "main.a874499f.css.map": "/My-Landing-Page/static/css/main.a874499f.css.map",
-    "main.c16a7f52.js.map": "/My-Landing-Page/static/js/main.c16a7f52.js.map",
+    "main.66a402ed.css.map": "/My-Landing-Page/static/css/main.66a402ed.css.map",
+    "main.c3c603ba.js.map": "/My-Landing-Page/static/js/main.c3c603ba.js.map",
     "787.060a5f04.chunk.js.map": "/My-Landing-Page/static/js/787.060a5f04.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a874499f.css",
-    "static/js/main.c16a7f52.js"
+    "static/css/main.66a402ed.css",
+    "static/js/main.c3c603ba.js"
   ]
 }
