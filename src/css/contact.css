@@ -33,6 +33,9 @@
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }
+.contact-contents > p > a:hover {
+    color: #7db5d9;
+}
 
 @media only screen and (max-width: 768px) {
     #contact-wrap {
