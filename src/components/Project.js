@@ -18,7 +18,7 @@ function Project(prop, ref) {
                                 <li>· 주소 : <a href="https://cwship.co.kr">https://cwship.co.kr</a></li>
                                 <li>· 제작기간 : 23년 4월 ~</li>
                                 <li>· 개발인원 : 1인</li>
-                                <li>· 사용기술 : SpringBoot, HTML/CSS, JavaScript, Mybatis, MySQL, AWS(EC2, RDS, ROUTE53),
+                                <li>· 사용기술 : SpringBoot, HTML/CSS, JavaScript, Mybatis, MySQL, AWS(EC2, RDS, ROUTE53, WAF),
                                     Git/Github
                                 </li>
                                 <li>· 제작의도 : (주)청우국제운송 관계자로 부터 회사 소개페이지를 만들어 달라는 요청을 받고
@@ -94,7 +94,16 @@ function Project(prop, ref) {
                                 <td>
                                     AWS EC2서버를 통해 배포하였으며 데이터베이스는 RDS로 생성하였습니다.
                                     테스트를 위해 저렴한 도메인을 구매하여 ROUTE53을 통해 연결하였으며
-                                    let's encrypt SSL인증서를 통해 HTTPS로 연결하였습니다. 이외 PUTTY, FileZilla를 활용하였습니다.
+                                    let's encrypt SSL인증서를 통해 HTTPS로 연결하였습니다.
+                                    이후 정식으로 사용할 도메인을 연결하고 SSL인증서 또한 AWS의 Certificate Manager를 통해 생성하였습니다.
+                                    이외 PUTTY, FileZilla를 활용하였습니다.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>해외 IP차단 ｜</td>
+                                <td>
+                                    EC2서버에 프로젝트를 올려 테스트하던 중 해외 IP로부터 env탈취공격으로 보이는 악성로그들이 확인되었습니다.
+                                    이로인해 AWS의 방화벽서비스 WAF를 통해 한국 IP를 제외한 IP의 접근을 차단하였습니다.
                                 </td>
                             </tr>
                             <tr>
